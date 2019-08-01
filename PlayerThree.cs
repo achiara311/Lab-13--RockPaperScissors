@@ -7,20 +7,10 @@ namespace RockPaperScissors
      class PlayerThree : Player
     {
       
-
-        /*protected PlayerThree()
-        {
-
-        }
-        protected PlayerThree(string _name, Roshambo _roshamboValue)
-            :base(_name, _roshamboValue)
-        {
-            Name = _name;
-            RoshamboValue = _roshamboValue;
-        }*/
         public override Roshambo generateRoshambo()
         {
-            int choice = int.Parse(Console.ReadLine());
+            string input = Console.ReadLine();
+            int choice = int.Parse(input);
 
             switch(choice)
             {
@@ -39,7 +29,9 @@ namespace RockPaperScissors
                 default:
                     Console.WriteLine("Messed up");
                     return generateRoshambo();
+                    
             }
+            //return generateRoshambo();
             //return RoshamboValue;
         }
     }
