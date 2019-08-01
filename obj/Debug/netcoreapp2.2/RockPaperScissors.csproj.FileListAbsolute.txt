@@ -1,0 +1,11 @@
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\bin\Debug\netcoreapp2.2\RockPaperScissors.deps.json
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\bin\Debug\netcoreapp2.2\RockPaperScissors.runtimeconfig.json
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\bin\Debug\netcoreapp2.2\RockPaperScissors.runtimeconfig.dev.json
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\bin\Debug\netcoreapp2.2\RockPaperScissors.dll
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\bin\Debug\netcoreapp2.2\RockPaperScissors.pdb
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.AssemblyInfo.cs
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.dll
+C:\Users\achia\OneDrive\Desktop\LabsWeekThree\RockPaperScissors\obj\Debug\netcoreapp2.2\RockPaperScissors.pdb
