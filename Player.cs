@@ -8,11 +8,16 @@ namespace RockPaperScissors
     {
         public string Name { get; set; }
         public Roshambo RoshamboValue { get; set; }
+        public int Wins { get; set; }
+        public int Losses { get; set; }
+        public int Ties { get; set; }
 
-          public Player()
+        public Player()
           {
-
-          }
+            Wins = 0;
+            Losses = 0;
+            Ties = 0;
+        }
           public Player(string _name, Roshambo _roshamboValue)
           {
               Name = _name;

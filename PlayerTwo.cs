@@ -12,11 +12,14 @@ namespace RockPaperScissors
         {
 
         }
-        public PlayerTwo(string _name, Roshambo _choice)
+        public PlayerTwo(string _name, Roshambo _choice, int _wins, int _losses, int _ties)
             : base(_name, _choice)
         {
             Name = _name;
             RoshamboValue = _choice;
+            Wins = _wins;
+            Losses = _losses;
+            Ties = _ties;
         }
         public override Roshambo generateRoshambo()
         {
