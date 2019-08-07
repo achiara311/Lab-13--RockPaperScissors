@@ -20,10 +20,18 @@ namespace RockPaperScissors
         }
         public override Roshambo generateRoshambo()
         {
-            Random number = new Random();
-            int die = number.Next(0, 3); //Next picks within specified range
-            Roshambo choice = Enum.Parse<Roshambo>($"{die}");
-            return choice;
+            try
+            {
+                Random number = new Random();
+                int die = number.Next(1, 3); //Next picks within specified range
+                Roshambo choice = Enum.Parse<Roshambo>($"{die}");
+                return choice;
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Not right try again.");
+                return generateRoshambo();
+            }
         }
 
 

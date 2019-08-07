@@ -24,11 +24,5 @@ namespace RockPaperScissors
             return Roshambo.rock; //rock comes from enum
         }
 
-
-        /* public override string generateRoshambo()
-         {
-             string rock = Enum.GetName(typeof(Roshambo), 0);
-             return  $"{rock}";
-         }*/
     }
 }

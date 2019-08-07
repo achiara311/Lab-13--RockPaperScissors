@@ -9,30 +9,37 @@ namespace RockPaperScissors
       
         public override Roshambo generateRoshambo()
         {
-            string input = Console.ReadLine();
-            int choice = int.Parse(input);
-
-            switch(choice)
+            try
             {
-                case 1:
-                    {
-                        return Roshambo.rock;
-                    }
-                case 2:
-                    {
-                        return Roshambo.paper;
-                    }
-                case 3:
-                    {
-                        return Roshambo.scissors;
-                    }
-                default:
-                    Console.WriteLine("Messed up");
-                    return generateRoshambo();
-                    
+                string input = Console.ReadLine();
+                int choice = int.Parse(input);
+
+                switch (choice)
+                {
+                    case 1:
+                        {
+                            return Roshambo.rock;
+                        }
+                    case 2:
+                        {
+                            return Roshambo.paper;
+                        }
+                    case 3:
+                        {
+                            return Roshambo.scissors;
+                        }
+                    default:
+                        Console.WriteLine("Messed up");
+                        return generateRoshambo();
+                }
+           
             }
-            //return generateRoshambo();
-            //return RoshamboValue;
+            catch (FormatException)
+            {
+                Console.WriteLine("Not a number.");
+                return generateRoshambo();
+            }
+          
         }
     }
 }
